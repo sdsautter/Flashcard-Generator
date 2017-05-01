@@ -1,0 +1,26 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "A study tool using different types of flashcards",
+  "main": "CLI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdsautter/Flashcard-Generator.git"
+  },
+  "keywords": [
+    "flashcard",
+    "generator"
+  ],
+  "author": "Scott D. Sautter, the 1st Esq.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdsautter/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/sdsautter/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^3.0.6"
+  }
+}
