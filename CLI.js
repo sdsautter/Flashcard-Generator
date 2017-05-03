@@ -48,7 +48,7 @@ function clozeCardDisplay() {
         clozeClone[index].showIncomplete();
         inquirer.prompt([{
             name: "show",
-            message: "Do you want to see the back of this card?",
+            message: "See full sentence?",
             type: "confirm"
         }]).then(function(response) {
             if (response.show) clozeClone[index].showComplete();
